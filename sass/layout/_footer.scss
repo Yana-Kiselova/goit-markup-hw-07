@@ -1,13 +1,13 @@
 .footer {
-  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
 }
 
 .address {
-  line-height: 1.71;
-  margin-top: 20px;
   min-width: 231px;
+  margin-top: 20px;
+  line-height: 1.71;
 }
 
 .link-address {
@@ -26,10 +26,10 @@
   margin-bottom: 100px;
 }
 
-.footer-item {
+.footer-item:not(:last-child) {
   margin-bottom: 9px;
-  font-size: 14px;
 }
+
 .footer-container {
   display: flex;
 }
@@ -38,29 +38,29 @@
   margin-left: 70px;
   margin-top: 12px;
 }
+
 .footer-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--white-color);
   margin-bottom: 20px;
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.14;
 }
 
 .footer-social-list {
   display: flex;
   align-items: center;
 }
+
 .footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   fill: var(--white-color);
-  display: block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -74,10 +74,10 @@
 }
 
 .modal-form-footer {
-  margin-left: 93px;
-  margin-top: 12px;
   width: 570px;
   height: 86px;
+  margin-left: 93px;
+  margin-top: 12px;
 }
 .modal-container-footer {
   display: flex;
@@ -86,13 +86,12 @@
 }
 
 .modal-text-footer {
+  width: 100%;
   margin-bottom: 20px;
   color: var(--white-color);
-  width: 100%;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.14;
 }
 
 .modal-input-footer {
@@ -101,15 +100,14 @@
   margin-right: 12px;
   padding: 16px 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background: none;
   color: var(--white-color);
 }
 
 .modal-input-footer::placeholder {
-  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
 }

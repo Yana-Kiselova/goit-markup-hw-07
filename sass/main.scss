@@ -5,6 +5,9 @@
 @import "./base/container";
 
 @import "./components/button";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/modal-form";
 
 @import "./layout/header";
 @import "./layout/hero";
@@ -14,6 +17,3 @@
 @import "./layout/clients";
 @import "./layout/footer";
 @import "./layout/portfolio";
-
-@import "./components/backdrop";
-@import "./components/modal";

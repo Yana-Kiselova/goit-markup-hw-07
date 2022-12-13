@@ -4,12 +4,11 @@
 }
 
 .clients-title {
-  font-style: normal;
+  margin-bottom: 50px;
+  color: var(--secondary-text-color);
+  text-align: center;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
-  color: var(--secondary-text-color);
-  margin-bottom: 50px;
 }
 
 .clients-list {
@@ -19,12 +18,12 @@
 }
 
 .clients-link {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  padding: 16px 32px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
