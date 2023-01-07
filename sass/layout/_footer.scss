@@ -8,17 +8,21 @@
   min-width: 231px;
   margin-top: 20px;
   line-height: 1.71;
+  &__link {
+    color: var(--white-color);
+  }
+  &__contact-link {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
-.link-address {
-  color: var(--white-color);
-}
-
-.contact-link {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.logo-background-dark {
+.logo--dark-theme {
   color: var(--white-color);
 }
 
@@ -26,20 +30,12 @@
   margin-bottom: 100px;
 }
 
-.footer-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-
-.footer-container {
-  display: flex;
-}
-
 .footer-social {
   margin-left: 70px;
   margin-top: 12px;
 }
 
-.footer-text {
+.footer-social__text {
   margin-bottom: 20px;
   color: var(--white-color);
   text-transform: uppercase;
@@ -47,12 +43,12 @@
   line-height: 1.14;
 }
 
-.footer-social-list {
+.footer-social__list {
   display: flex;
   align-items: center;
 }
 
-.footer-social-link {
+.footer-social__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,41 +65,42 @@
   }
 }
 
-.footer-social-item:not(:last-child) {
+.footer-social__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.modal-form-footer {
+.subscription {
   width: 570px;
   height: 86px;
   margin-left: 93px;
   margin-top: 12px;
-}
-.modal-container-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.modal-text-footer {
-  width: 100%;
-  margin-bottom: 20px;
-  color: var(--white-color);
-  text-transform: uppercase;
-  font-weight: 700;
-  line-height: 1.14;
-}
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.modal-input-footer {
-  height: 50px;
-  width: 358px;
-  margin-right: 12px;
-  padding: 16px 15px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  background: none;
-  color: var(--white-color);
+  &__text {
+    width: 100%;
+    margin-bottom: 20px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.14;
+  }
+
+  &__input {
+    height: 50px;
+    width: 358px;
+    margin-right: 12px;
+    padding: 16px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background: none;
+    color: var(--white-color);
+  }
 
   &::placeholder {
     color: rgba(255, 255, 255, 0.6);

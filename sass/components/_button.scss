@@ -17,19 +17,19 @@
   }
 }
 
-.footer-button {
+.subscription__button {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px 28px;
 }
 
-.modal-form-button {
+.modal-form__button {
   align-self: center;
 }
 
-.modal-form-button,
-.hero-button {
+.modal-form__button,
+.button__hero {
   padding: 10px 32px;
   margin-top: 30px;
 }
